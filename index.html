@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<form class="form-horizontal register-form">
+
+				<div class="alert alert-success fs14">
+					<strong>Thanks for registering for the <span id="chosenTrack"></span> Track <span id="student"></span></strong>.<br>
+					Reason for Joining - <span id="reason"></span><br>
+					Languages - <span id="myLanguages"></span>
+				</div>
+
+				<div class="form-group">
+					<label class="control-label fs14">Enter your Name</label>
+					<input id="fullName" type="text" name="fullName" placeholder="Enter your Full Name" class="form-control fs11">
+				</div>
+
+				<div class="form-group">
+					<label class="control-label fs14">Choose Track</label>
+					<div class="rdio rdio-default fs11">
+						<input type="radio" name="track" id="android" value="android">
+						<label for="android" > Android</label>
+					</div>
+					<div class="rdio rdio-default fs11">
+						<input type="radio" name="track" id="fullstack" value="fullstack">
+						<label for="fullstack" > Fullstack</label>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label class="control-label fs14">What is the main outcome you hope to get from Moringa?</label>
+					<select id="outcome" class="form-control fs11">
+						<option value=""> - </option>
+						<option value="Strengthening my completed degree to find a job">Strengthening my completed degree to find a job</option>
+						<option value="No degree but I'm looking to get a Certificate">No degree but I'm looking to get a Certificate</option>
+					</select>
+				</div>
+
+				<div class="form-group">
+					<label class="control-label fs14">Which Languages are you familiar with?</label>
+					<div class="ckbox ckbox-default fs11">
+						<input type="checkbox" value="javascript" name="languages" id="javascript">
+						<label for="javascript"> JavaScript</label>
+					</div>
+					<div class="ckbox ckbox-default fs11">
+						<input type="checkbox" value="python" name="languages" id="python">
+						<label for="python"> Python</label>
+					</div>
+					<div class="ckbox ckbox-default fs11">
+						<input type="checkbox" value="java" name="languages" id="java">
+						<label for="java"> Java</label>
+					</div>
+					<div class="ckbox ckbox-default fs11">
+						<input type="checkbox" value="none" name="languages" id="none">
+						<label for="none"> None</label>
+					</div>
+				</div>
+
+				<button type="submit" class="btn btn-sm btn-block btn-warning">Register!</button>
+			</form>
+		</div>
+	</div>
+
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="js/scripts.js"></script>
+
+</body>
+</html>

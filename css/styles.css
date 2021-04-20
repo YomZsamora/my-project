@@ -1,0 +1,100 @@
+.intro {
+	text-align: center;
+}
+
+.header {
+	font-weight: 100;
+	font-size: 78px;
+}
+
+.next-page {
+	background-color: green;
+	padding: 5px;
+	color: #ffffff;
+	width: 100%;
+	border-radius: 4px;
+}
+
+.mt10 {
+	margin-top: 10px;
+}
+
+.fs11 {
+	font-size: 11px !important;
+}
+
+.fs12 {
+	font-size: 12px;
+}
+
+.fs14 {
+	font-size: 14px;
+}
+
+.fs16 {
+	font-size: 16px;
+}
+
+.fs18 {
+	font-size: 18px;
+}
+
+.fs20 {
+	font-size: 20px;
+}
+
+.fs22 {
+	font-size: 22px;
+}
+
+.text-danger {
+	color: red;
+}
+
+.text-warning {
+	color: yellow;
+}
+
+.text-success {
+	color: green;
+}
+
+.text-primary {
+	color: blue;
+}
+
+.input-border {
+	   border: 2px solid blue !important;
+	   border-radius: 0
+}
+
+.definition-list, .register-form {
+	padding-top: 20px;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.description {
+	text-transform: uppercase;
+	font-weight: 800;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
