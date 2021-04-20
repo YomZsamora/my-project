@@ -14,6 +14,38 @@
 	width: 100%;
 	border-radius: 4px;
 }
+nav ul{
+    display: inline;
+    flex-direction: row;
+    float: right;
+    margin-top: 15px;
+    margin-right: 50px;
+    padding-left: 20px;
+}
+nav ul li{
+    
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(55, 195, 238);
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: rgb(43, 235, 177);
+    padding: 10px;
+    color: rgb(57, 91, 241);
+    padding: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.ho,.fi,.co{
+    border-right: 2px solid rgb(173, 171, 171);
+    margin-right: 10px;
+}
 
 .mt10 {
 	margin-top: 10px;
