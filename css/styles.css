@@ -82,6 +82,12 @@
 	cursor: pointer;
 }
 
+body{
+	background-image: url(../Images/photo-1484820540004-14229fe36ca4.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
 
 
 
