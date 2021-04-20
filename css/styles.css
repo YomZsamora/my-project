@@ -81,7 +81,12 @@
 	font-weight: 800;
 	cursor: pointer;
 }
-
+small {
+	font-family: 'Original Surfer', cursive;
+}
+button{
+	font-family: 'Kaushan Script', cursive;
+}
 
 
 
